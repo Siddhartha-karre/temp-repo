@@ -1,5 +1,6 @@
 import {readFile, writeFile} from 'fs';
 
+console.log('first');
 readFile('./content/first.txt','utf-8', (err, result)=>{
     if(err){
         console.error(err);
